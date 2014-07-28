@@ -21,7 +21,7 @@ public class MainActivity extends ActionBarActivity {
 		button=(Button)findViewById(R.id.button1);
 		editText.setText("hello");
 		button.setText("submit");
-		button.setKeyListener(new OnClickListener(){
+		button.setOnClickListenr(new OnClickListener(){
 			@Override
 			public void OnClick(view v){
 				send();
